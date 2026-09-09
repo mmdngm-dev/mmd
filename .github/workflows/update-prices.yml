@@ -22,7 +22,7 @@ jobs:
           node-version: "20"
 
       - name: Fetch latest prices
-        run: node updater/fetch-prices.mjs
+        run: node fetch-prices.mjs
         env:
           COMMODITIES_API_KEY: ${{ secrets.COMMODITIES_API_KEY }}
 
