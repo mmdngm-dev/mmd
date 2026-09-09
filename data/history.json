@@ -1,0 +1,2591 @@
+{
+  "series": [
+    {
+      "date": "2026-03-13",
+      "prices": {
+        "gold": 5022.11,
+        "iron_ore": 105.14,
+        "copper": 5.69,
+        "brent": 101.52,
+        "sugar": 14.41,
+        "wheat": 616.72,
+        "soybean_oil": 67.34,
+        "palm_oil": 4576
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "prices": {
+        "gold": 5022.11,
+        "iron_ore": 105.14,
+        "copper": 5.69,
+        "brent": 101.52,
+        "sugar": 14.41,
+        "wheat": 616.72,
+        "soybean_oil": 67.34,
+        "palm_oil": 4572
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "prices": {
+        "gold": 5019.11,
+        "iron_ore": 105.14,
+        "copper": 5.71,
+        "brent": 101.28,
+        "sugar": 14.41,
+        "wheat": 616.72,
+        "soybean_oil": 67.34,
+        "palm_oil": 4572
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "prices": {
+        "gold": 5027.32,
+        "iron_ore": 105.34,
+        "copper": 5.86,
+        "brent": 98.25,
+        "sugar": 14.18,
+        "wheat": 600.51,
+        "soybean_oil": 63.82,
+        "palm_oil": 4572
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "prices": {
+        "gold": 4991.13,
+        "iron_ore": 105.77,
+        "copper": 5.78,
+        "brent": 100.96,
+        "sugar": 14.47,
+        "wheat": 593.8,
+        "soybean_oil": 65.81,
+        "palm_oil": 4568
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "prices": {
+        "gold": 4850.93,
+        "iron_ore": 105.54,
+        "copper": 5.53,
+        "brent": 106.53,
+        "sugar": 14.82,
+        "wheat": 609.3,
+        "soybean_oil": 65.42,
+        "palm_oil": 4557
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "prices": {
+        "gold": 4725.62,
+        "iron_ore": 105.64,
+        "copper": 5.54,
+        "brent": 104.38,
+        "sugar": 15.42,
+        "wheat": 614.1,
+        "soybean_oil": 65.14,
+        "palm_oil": 4564
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "prices": {
+        "gold": 4488.72,
+        "iron_ore": 105.89,
+        "copper": 5.32,
+        "brent": 105.03,
+        "sugar": 15.63,
+        "wheat": 600.73,
+        "soybean_oil": 65.43,
+        "palm_oil": 4580
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "prices": {
+        "gold": 4488.72,
+        "iron_ore": 105.89,
+        "copper": 5.32,
+        "brent": 108.38,
+        "sugar": 15.63,
+        "wheat": 600.1,
+        "soybean_oil": 65.43,
+        "palm_oil": 4580
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "prices": {
+        "gold": 4352.71,
+        "iron_ore": 105.89,
+        "copper": 5.33,
+        "brent": 108.06,
+        "sugar": 15.63,
+        "wheat": 600.1,
+        "soybean_oil": 65.43,
+        "palm_oil": 4580
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "prices": {
+        "gold": 4347,
+        "iron_ore": 106,
+        "copper": 5.52,
+        "brent": 96.74,
+        "sugar": 15.52,
+        "wheat": 594.4,
+        "soybean_oil": 65.59,
+        "palm_oil": 4580
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "prices": {
+        "gold": 4569.7,
+        "iron_ore": 106.1,
+        "copper": 5.58,
+        "brent": 96.45,
+        "sugar": 15.9,
+        "wheat": 597.2,
+        "soybean_oil": 65.58,
+        "palm_oil": 4580
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "prices": {
+        "gold": 4516.54,
+        "iron_ore": 106.02,
+        "copper": 5.54,
+        "brent": 98.77,
+        "sugar": 15.53,
+        "wheat": 604.1,
+        "soybean_oil": 66.98,
+        "palm_oil": 4515
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "prices": {
+        "gold": 4437.48,
+        "iron_ore": 106.14,
+        "copper": 5.52,
+        "brent": 100.62,
+        "sugar": 15.85,
+        "wheat": 610.1,
+        "soybean_oil": 67.77,
+        "palm_oil": 4484
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "prices": {
+        "gold": 4495.05,
+        "iron_ore": 106.22,
+        "copper": 5.49,
+        "brent": 107.33,
+        "sugar": 15.75,
+        "wheat": 610.7,
+        "soybean_oil": 67.23,
+        "palm_oil": 4584
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "prices": {
+        "gold": 4495.05,
+        "iron_ore": 106.22,
+        "copper": 5.49,
+        "brent": 107.33,
+        "sugar": 15.75,
+        "wheat": 610.7,
+        "soybean_oil": 67.23,
+        "palm_oil": 4620
+      }
+    },
+    {
+      "date": "2026-03-29",
+      "prices": {
+        "gold": 4495.9,
+        "iron_ore": 106.22,
+        "copper": 5.45,
+        "brent": 108.41,
+        "sugar": 15.75,
+        "wheat": 610.7,
+        "soybean_oil": 67.23,
+        "palm_oil": 4620
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "prices": {
+        "gold": 4556.99,
+        "iron_ore": 106.32,
+        "copper": 5.51,
+        "brent": 108.52,
+        "sugar": 15.54,
+        "wheat": 613.6,
+        "soybean_oil": 68.38,
+        "palm_oil": 4620
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "prices": {
+        "gold": 4681.87,
+        "iron_ore": 106.38,
+        "copper": 5.67,
+        "brent": 103.09,
+        "sugar": 15.51,
+        "wheat": 624.01,
+        "soybean_oil": 68.96,
+        "palm_oil": 4794
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "prices": {
+        "gold": 4676.16,
+        "iron_ore": 107.51,
+        "fishmeal": 1946.18,
+        "copper": 5.65,
+        "brent": 99.38,
+        "sugar": 15.29,
+        "wheat": 603.8,
+        "soybean_oil": 67.06,
+        "palm_oil": 4901
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "prices": {
+        "gold": 4677.28,
+        "iron_ore": 107.45,
+        "fishmeal": 1946.18,
+        "copper": 5.71,
+        "brent": 107.92,
+        "sugar": 15,
+        "wheat": 604.2,
+        "soybean_oil": 68.87,
+        "palm_oil": 4791
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "prices": {
+        "gold": 4677.28,
+        "iron_ore": 107.45,
+        "fishmeal": 1946.18,
+        "copper": 5.71,
+        "brent": 107.92,
+        "sugar": 15,
+        "wheat": 604.2,
+        "soybean_oil": 68.87,
+        "palm_oil": 4839
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "prices": {
+        "gold": 4677.28,
+        "iron_ore": 107.45,
+        "fishmeal": 1946.18,
+        "copper": 5.71,
+        "brent": 107.92,
+        "sugar": 15,
+        "wheat": 604.2,
+        "soybean_oil": 68.87,
+        "palm_oil": 4839
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "prices": {
+        "gold": 4640.38,
+        "iron_ore": 107.45,
+        "fishmeal": 1946.18,
+        "copper": 5.67,
+        "brent": 109.17,
+        "sugar": 15,
+        "wheat": 604.2,
+        "soybean_oil": 68.87,
+        "palm_oil": 4839
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "prices": {
+        "gold": 4649.54,
+        "iron_ore": 107.97,
+        "fishmeal": 1946.18,
+        "copper": 5.64,
+        "brent": 107.02,
+        "sugar": 14.98,
+        "wheat": 602.9,
+        "soybean_oil": 69.63,
+        "palm_oil": 4811
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "prices": {
+        "gold": 4797.4,
+        "iron_ore": 108.32,
+        "fishmeal": 1946.18,
+        "copper": 5.71,
+        "brent": 101.16,
+        "sugar": 14.57,
+        "wheat": 604.6,
+        "soybean_oil": 69.38,
+        "palm_oil": 4765
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "prices": {
+        "gold": 4711.41,
+        "iron_ore": 107.83,
+        "fishmeal": 1946.18,
+        "copper": 5.79,
+        "brent": 95.01,
+        "sugar": 14.26,
+        "wheat": 587.51,
+        "soybean_oil": 67.32,
+        "palm_oil": 4586
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "prices": {
+        "gold": 4766.45,
+        "iron_ore": 106.27,
+        "fishmeal": 1946.18,
+        "copper": 5.79,
+        "brent": 94.4,
+        "sugar": 13.95,
+        "wheat": 580.7,
+        "soybean_oil": 67.54,
+        "palm_oil": 4643
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "prices": {
+        "gold": 4751.68,
+        "iron_ore": 106.63,
+        "fishmeal": 1946.18,
+        "copper": 5.91,
+        "brent": 92.36,
+        "sugar": 13.76,
+        "wheat": 576.51,
+        "soybean_oil": 67.02,
+        "palm_oil": 4538
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "prices": {
+        "gold": 4751.68,
+        "iron_ore": 106.63,
+        "fishmeal": 1946.18,
+        "copper": 5.91,
+        "brent": 92.36,
+        "sugar": 13.76,
+        "wheat": 576.51,
+        "soybean_oil": 67.02,
+        "palm_oil": 4538
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "prices": {
+        "gold": 4717.85,
+        "iron_ore": 106.63,
+        "fishmeal": 1946.18,
+        "copper": 5.84,
+        "brent": 99.83,
+        "sugar": 13.76,
+        "wheat": 576.51,
+        "soybean_oil": 67.02,
+        "palm_oil": 4538
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "prices": {
+        "gold": 4767.7,
+        "iron_ore": 107.05,
+        "fishmeal": 1946.18,
+        "copper": 6.05,
+        "brent": 95.05,
+        "sugar": 13.63,
+        "wheat": 588.3,
+        "soybean_oil": 66.27,
+        "palm_oil": 4555
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "prices": {
+        "gold": 4823.97,
+        "iron_ore": 107.05,
+        "fishmeal": 1946.18,
+        "copper": 6.13,
+        "brent": 92.86,
+        "sugar": 13.93,
+        "wheat": 600.2,
+        "soybean_oil": 66.18,
+        "palm_oil": 4466
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "prices": {
+        "gold": 4824.07,
+        "iron_ore": 106.75,
+        "fishmeal": 1946.18,
+        "copper": 6.14,
+        "brent": 92.47,
+        "sugar": 13.5,
+        "wheat": 598.9,
+        "soybean_oil": 67.32,
+        "palm_oil": 4472
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "prices": {
+        "gold": 4793.12,
+        "iron_ore": 106.75,
+        "fishmeal": 1946.18,
+        "copper": 6.1,
+        "brent": 94.96,
+        "sugar": 13.67,
+        "wheat": 606.4,
+        "soybean_oil": 69.04,
+        "palm_oil": 4476
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "prices": {
+        "gold": 4833.56,
+        "iron_ore": 106.85,
+        "fishmeal": 1946.18,
+        "copper": 6.13,
+        "brent": 88.81,
+        "sugar": 13.33,
+        "wheat": 596.4,
+        "soybean_oil": 67.81,
+        "palm_oil": 4450
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "prices": {
+        "gold": 4833.56,
+        "iron_ore": 106.85,
+        "fishmeal": 1946.18,
+        "copper": 6.13,
+        "brent": 88.81,
+        "sugar": 13.33,
+        "wheat": 596.4,
+        "soybean_oil": 67.81,
+        "palm_oil": 4450
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "prices": {
+        "gold": 4790.71,
+        "iron_ore": 106.85,
+        "fishmeal": 1946.18,
+        "copper": 6.09,
+        "brent": 92.88,
+        "sugar": 13.33,
+        "wheat": 596.4,
+        "soybean_oil": 67.81,
+        "palm_oil": 4450
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "prices": {
+        "gold": 4797.13,
+        "iron_ore": 107.09,
+        "fishmeal": 1946.18,
+        "copper": 6.1,
+        "brent": 90.18,
+        "sugar": 13.46,
+        "wheat": 603.51,
+        "soybean_oil": 69.34,
+        "palm_oil": 4498
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "prices": {
+        "gold": 4758.03,
+        "iron_ore": 107.05,
+        "fishmeal": 1946.18,
+        "copper": 6.07,
+        "brent": 94.96,
+        "sugar": 13.42,
+        "wheat": 612.3,
+        "soybean_oil": 71.67,
+        "palm_oil": 4559
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "prices": {
+        "gold": 4703.85,
+        "iron_ore": 107.11,
+        "fishmeal": 1946.18,
+        "copper": 6.19,
+        "brent": 97,
+        "sugar": 13.59,
+        "wheat": 606.2,
+        "soybean_oil": 71.02,
+        "palm_oil": 4628
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "prices": {
+        "gold": 4672,
+        "iron_ore": 107.06,
+        "fishmeal": 1946.18,
+        "copper": 6.09,
+        "brent": 101.15,
+        "sugar": 13.62,
+        "wheat": 621.3,
+        "soybean_oil": 71.16,
+        "palm_oil": 4579
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "prices": {
+        "gold": 4710.25,
+        "iron_ore": 107.1,
+        "fishmeal": 1946.18,
+        "copper": 6.09,
+        "brent": 100.61,
+        "sugar": 13.92,
+        "wheat": 615.4,
+        "soybean_oil": 71.26,
+        "palm_oil": 4597
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "prices": {
+        "gold": 4709.27,
+        "iron_ore": 107.1,
+        "fishmeal": 1946.18,
+        "copper": 6.09,
+        "brent": 100.61,
+        "sugar": 13.92,
+        "wheat": 615.4,
+        "soybean_oil": 71.26,
+        "palm_oil": 4597
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "prices": {
+        "gold": 4724.19,
+        "iron_ore": 107.1,
+        "fishmeal": 1946.18,
+        "copper": 6.08,
+        "brent": 101.63,
+        "sugar": 13.92,
+        "wheat": 615.4,
+        "soybean_oil": 71.26,
+        "palm_oil": 4597
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "prices": {
+        "gold": 4691.64,
+        "iron_ore": 107.13,
+        "fishmeal": 1946.18,
+        "copper": 6.09,
+        "brent": 102.06,
+        "sugar": 13.83,
+        "wheat": 630.3,
+        "soybean_oil": 71.71,
+        "palm_oil": 4534
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "prices": {
+        "gold": 4595.39,
+        "iron_ore": 107.12,
+        "fishmeal": 1946.18,
+        "copper": 5.98,
+        "brent": 104.38,
+        "sugar": 14.13,
+        "wheat": 658.5,
+        "soybean_oil": 72.42,
+        "palm_oil": 4536
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "prices": {
+        "gold": 4556.14,
+        "iron_ore": 107.15,
+        "fishmeal": 1946.18,
+        "copper": 5.95,
+        "brent": 112.17,
+        "sugar": 14.69,
+        "wheat": 653.51,
+        "soybean_oil": 74.13,
+        "palm_oil": 4578
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "prices": {
+        "gold": 4626.64,
+        "iron_ore": 107.18,
+        "fishmeal": 1946.18,
+        "copper": 6.03,
+        "brent": 110.3,
+        "sugar": 14.6,
+        "wheat": 638.4,
+        "soybean_oil": 74.24,
+        "palm_oil": 4570
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "prices": {
+        "gold": 4612.5,
+        "iron_ore": 107.86,
+        "fishmeal": 2044.75,
+        "copper": 5.97,
+        "brent": 108.16,
+        "sugar": 14.97,
+        "wheat": 637.4,
+        "soybean_oil": 74.67,
+        "palm_oil": 4570
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "prices": {
+        "gold": 4612.5,
+        "iron_ore": 107.86,
+        "fishmeal": 2044.75,
+        "copper": 5.97,
+        "brent": 108.16,
+        "sugar": 14.97,
+        "wheat": 637.4,
+        "soybean_oil": 74.67,
+        "palm_oil": 4570
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "prices": {
+        "gold": 4615.14,
+        "iron_ore": 107.86,
+        "fishmeal": 2044.75,
+        "copper": 5.99,
+        "brent": 107.11,
+        "sugar": 14.97,
+        "wheat": 637.4,
+        "soybean_oil": 74.67,
+        "palm_oil": 4570
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "prices": {
+        "gold": 4534.56,
+        "iron_ore": 107.86,
+        "fishmeal": 2044.75,
+        "copper": 5.88,
+        "brent": 112.53,
+        "sugar": 15.31,
+        "wheat": 642.9,
+        "soybean_oil": 76.04,
+        "palm_oil": 4622
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "prices": {
+        "gold": 4643.88,
+        "iron_ore": 108.58,
+        "fishmeal": 2044.75,
+        "copper": 6.01,
+        "brent": 109.17,
+        "sugar": 15.37,
+        "wheat": 630.6,
+        "soybean_oil": 76.14,
+        "palm_oil": 4710
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "prices": {
+        "gold": 4698.96,
+        "iron_ore": 110.86,
+        "fishmeal": 2044.75,
+        "copper": 6.19,
+        "brent": 100.59,
+        "sugar": 14.83,
+        "wheat": 619.6,
+        "soybean_oil": 74.22,
+        "palm_oil": 4527
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "prices": {
+        "gold": 4719.56,
+        "iron_ore": 110.95,
+        "fishmeal": 2044.75,
+        "copper": 6.15,
+        "brent": 101.99,
+        "sugar": 14.56,
+        "wheat": 615.1,
+        "soybean_oil": 73.33,
+        "palm_oil": 4541
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "prices": {
+        "gold": 4715.85,
+        "iron_ore": 110.93,
+        "fishmeal": 2044.75,
+        "copper": 6.29,
+        "brent": 99.29,
+        "sugar": 14.69,
+        "wheat": 622.6,
+        "soybean_oil": 73.21,
+        "palm_oil": 4541
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "prices": {
+        "gold": 4715.85,
+        "iron_ore": 110.93,
+        "fishmeal": 2044.75,
+        "copper": 6.29,
+        "brent": 99.29,
+        "sugar": 14.69,
+        "wheat": 622.6,
+        "soybean_oil": 73.21,
+        "palm_oil": 4541
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "prices": {
+        "gold": 4678.73,
+        "iron_ore": 110.93,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 103.33,
+        "sugar": 14.69,
+        "wheat": 622.6,
+        "soybean_oil": 73.21,
+        "palm_oil": 4541
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "prices": {
+        "gold": 4720.16,
+        "iron_ore": 111.42,
+        "fishmeal": 2044.75,
+        "copper": 6.51,
+        "brent": 102.86,
+        "sugar": 14.95,
+        "wheat": 639.2,
+        "soybean_oil": 72.73,
+        "palm_oil": 4516
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "prices": {
+        "gold": 4696,
+        "iron_ore": 111.11,
+        "fishmeal": 2044.75,
+        "copper": 6.64,
+        "brent": 105.71,
+        "sugar": 14.98,
+        "wheat": 681.8,
+        "soybean_oil": 74.25,
+        "palm_oil": 4481
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "prices": {
+        "gold": 4675.02,
+        "iron_ore": 111.28,
+        "fishmeal": 2044.75,
+        "copper": 6.64,
+        "brent": 103.64,
+        "sugar": 15.39,
+        "wheat": 678.1,
+        "soybean_oil": 73.17,
+        "palm_oil": 4438
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "prices": {
+        "gold": 4652.05,
+        "iron_ore": 111.28,
+        "fishmeal": 2044.75,
+        "copper": 6.6,
+        "brent": 104.13,
+        "sugar": 15,
+        "wheat": 661.7,
+        "soybean_oil": 72.65,
+        "palm_oil": 4393
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "prices": {
+        "gold": 4547.89,
+        "iron_ore": 110.77,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 106.55,
+        "sugar": 14.78,
+        "wheat": 639.51,
+        "soybean_oil": 72.26,
+        "palm_oil": 4420
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "prices": {
+        "gold": 4547.89,
+        "iron_ore": 110.77,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 106.55,
+        "sugar": 14.78,
+        "wheat": 639.51,
+        "soybean_oil": 72.26,
+        "palm_oil": 4420
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "prices": {
+        "gold": 4541.06,
+        "iron_ore": 110.77,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 107.46,
+        "sugar": 14.78,
+        "wheat": 639.51,
+        "soybean_oil": 72.26,
+        "palm_oil": 4420
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "prices": {
+        "gold": 4545,
+        "iron_ore": 110.54,
+        "fishmeal": 2044.75,
+        "copper": 6.35,
+        "brent": 106.7,
+        "sugar": 14.71,
+        "wheat": 669.2,
+        "soybean_oil": 73.92,
+        "palm_oil": 4522
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "prices": {
+        "gold": 4463.68,
+        "iron_ore": 110.54,
+        "fishmeal": 2044.75,
+        "copper": 6.23,
+        "brent": 107.69,
+        "sugar": 15.04,
+        "wheat": 672.3,
+        "soybean_oil": 73.66,
+        "palm_oil": 4585
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "prices": {
+        "gold": 4528.41,
+        "iron_ore": 110.09,
+        "fishmeal": 2044.75,
+        "copper": 6.35,
+        "brent": 102.23,
+        "sugar": 14.76,
+        "wheat": 665.5,
+        "soybean_oil": 72.93,
+        "palm_oil": 4583
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "prices": {
+        "gold": 4529.33,
+        "iron_ore": 110.09,
+        "fishmeal": 2044.75,
+        "copper": 6.37,
+        "brent": 102.31,
+        "sugar": 14.9,
+        "wheat": 652.7,
+        "soybean_oil": 72.1,
+        "palm_oil": 4458
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "prices": {
+        "gold": 4516.75,
+        "iron_ore": 109.67,
+        "fishmeal": 2044.75,
+        "copper": 6.4,
+        "brent": 101.12,
+        "sugar": 14.68,
+        "wheat": 652.2,
+        "soybean_oil": 71.96,
+        "palm_oil": 4486
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "prices": {
+        "gold": 4516.75,
+        "iron_ore": 109.67,
+        "fishmeal": 2044.75,
+        "copper": 6.4,
+        "brent": 101.12,
+        "sugar": 14.68,
+        "wheat": 652.2,
+        "soybean_oil": 71.96,
+        "palm_oil": 4486
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "prices": {
+        "gold": 4559.71,
+        "iron_ore": 109.67,
+        "fishmeal": 2044.75,
+        "copper": 6.47,
+        "brent": 96.1,
+        "sugar": 14.68,
+        "wheat": 652.2,
+        "soybean_oil": 71.96,
+        "palm_oil": 4486
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "prices": {
+        "gold": 4542.26,
+        "iron_ore": 109.67,
+        "fishmeal": 2044.75,
+        "copper": 6.48,
+        "brent": 93.83,
+        "sugar": 14.68,
+        "wheat": 652.2,
+        "soybean_oil": 71.96,
+        "palm_oil": 4473
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "prices": {
+        "gold": 4496.98,
+        "iron_ore": 109.26,
+        "fishmeal": 2044.75,
+        "copper": 6.46,
+        "brent": 96.37,
+        "sugar": 14.53,
+        "wheat": 641.1,
+        "soybean_oil": 72.17,
+        "palm_oil": 4496
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "prices": {
+        "gold": 4374.77,
+        "iron_ore": 109.26,
+        "fishmeal": 2044.75,
+        "copper": 6.36,
+        "brent": 92.87,
+        "sugar": 14.13,
+        "wheat": 627.8,
+        "soybean_oil": 72.78,
+        "palm_oil": 4496
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "prices": {
+        "gold": 4501.23,
+        "iron_ore": 109.27,
+        "fishmeal": 2044.75,
+        "copper": 6.45,
+        "brent": 92.37,
+        "sugar": 13.92,
+        "wheat": 630.3,
+        "soybean_oil": 74.13,
+        "palm_oil": 4537
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "prices": {
+        "gold": 4541.41,
+        "iron_ore": 104.52,
+        "fishmeal": 2044.75,
+        "copper": 6.42,
+        "brent": 91.39,
+        "sugar": 14.07,
+        "wheat": 616.8,
+        "soybean_oil": 74.78,
+        "palm_oil": 4535
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "prices": {
+        "gold": 4541.41,
+        "iron_ore": 104.52,
+        "fishmeal": 2044.75,
+        "copper": 6.42,
+        "brent": 91.39,
+        "sugar": 14.07,
+        "wheat": 616.8,
+        "soybean_oil": 74.78,
+        "palm_oil": 4535
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "prices": {
+        "gold": 4516.26,
+        "iron_ore": 104.52,
+        "fishmeal": 2044.75,
+        "copper": 6.44,
+        "brent": 92.58,
+        "sugar": 14.07,
+        "wheat": 616.8,
+        "soybean_oil": 74.78,
+        "palm_oil": 4535
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "prices": {
+        "gold": 4499.29,
+        "iron_ore": 104.52,
+        "fishmeal": 2044.75,
+        "copper": 6.6,
+        "brent": 94.96,
+        "sugar": 14.42,
+        "wheat": 615.51,
+        "soybean_oil": 76.08,
+        "palm_oil": 4535
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "prices": {
+        "gold": 4464.14,
+        "iron_ore": 105.03,
+        "fishmeal": 2044.75,
+        "copper": 6.7,
+        "brent": 95.44,
+        "sugar": 14.38,
+        "wheat": 610.1,
+        "soybean_oil": 75.41,
+        "palm_oil": 4677
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "prices": {
+        "gold": 4442.35,
+        "iron_ore": 105.13,
+        "fishmeal": 2044.75,
+        "copper": 6.53,
+        "brent": 96.81,
+        "sugar": 14.22,
+        "wheat": 594.7,
+        "soybean_oil": 75.82,
+        "palm_oil": 4601
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "prices": {
+        "gold": 4331,
+        "iron_ore": 103.71,
+        "fishmeal": 2044.75,
+        "copper": 6.55,
+        "brent": 94.56,
+        "sugar": 14.28,
+        "wheat": 590.1,
+        "soybean_oil": 73.94,
+        "palm_oil": 4554
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "prices": {
+        "gold": 4331,
+        "iron_ore": 102,
+        "fishmeal": 2044.75,
+        "copper": 6.31,
+        "brent": 92.26,
+        "sugar": 14.12,
+        "wheat": 588.01,
+        "soybean_oil": 71.96,
+        "palm_oil": 4554
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "prices": {
+        "gold": 4316.88,
+        "iron_ore": 102,
+        "fishmeal": 2044.75,
+        "copper": 6.31,
+        "brent": 92.26,
+        "sugar": 14.12,
+        "wheat": 588.01,
+        "soybean_oil": 71.96,
+        "palm_oil": 4554
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "prices": {
+        "gold": 4336.56,
+        "iron_ore": 102,
+        "fishmeal": 2044.75,
+        "copper": 6.31,
+        "brent": 94.53,
+        "sugar": 14.12,
+        "wheat": 588.01,
+        "soybean_oil": 71.96,
+        "palm_oil": 4575
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "prices": {
+        "gold": 4184.84,
+        "iron_ore": 102,
+        "fishmeal": 2044.75,
+        "copper": 6.37,
+        "brent": 93.32,
+        "sugar": 14.16,
+        "wheat": 590.3,
+        "soybean_oil": 72.05,
+        "palm_oil": 4528
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "prices": {
+        "gold": 4184.84,
+        "iron_ore": 101.05,
+        "fishmeal": 2044.75,
+        "copper": 6.38,
+        "brent": 91.75,
+        "sugar": 14.14,
+        "wheat": 592.84,
+        "soybean_oil": 71.97,
+        "palm_oil": 4528
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "prices": {
+        "gold": 4072.68,
+        "iron_ore": 101.37,
+        "fishmeal": 2044.75,
+        "copper": 6.23,
+        "brent": 94.26,
+        "sugar": 13.91,
+        "wheat": 595.39,
+        "soybean_oil": 72.22,
+        "palm_oil": 4538
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "prices": {
+        "gold": 4197.02,
+        "iron_ore": 101.7,
+        "fishmeal": 2044.75,
+        "copper": 6.44,
+        "brent": 88.56,
+        "sugar": 13.81,
+        "wheat": 594.46,
+        "soybean_oil": 71.36,
+        "palm_oil": 4551
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "prices": {
+        "gold": 4222,
+        "iron_ore": 101.62,
+        "fishmeal": 2044.75,
+        "copper": 6.52,
+        "brent": 86.17,
+        "sugar": 13.7,
+        "wheat": 593.85,
+        "soybean_oil": 70.72,
+        "palm_oil": 4475
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "prices": {
+        "gold": 4222,
+        "iron_ore": 101.62,
+        "fishmeal": 2044.75,
+        "copper": 6.52,
+        "brent": 86.17,
+        "sugar": 13.7,
+        "wheat": 593.85,
+        "soybean_oil": 70.72,
+        "palm_oil": 4475
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "prices": {
+        "gold": 4324.92,
+        "iron_ore": 101.62,
+        "fishmeal": 2044.75,
+        "copper": 6.57,
+        "brent": 83.17,
+        "sugar": 13.7,
+        "wheat": 593.85,
+        "soybean_oil": 70.72,
+        "palm_oil": 4451
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "prices": {
+        "gold": 4330.42,
+        "iron_ore": 101.62,
+        "fishmeal": 2044.75,
+        "copper": 6.53,
+        "brent": 82.89,
+        "sugar": 13.64,
+        "wheat": 598.12,
+        "soybean_oil": 70.36,
+        "palm_oil": 4451
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "prices": {
+        "gold": 4332.29,
+        "iron_ore": 101.94,
+        "fishmeal": 2044.75,
+        "copper": 6.54,
+        "brent": 79.16,
+        "sugar": 13.79,
+        "wheat": 601.99,
+        "soybean_oil": 68.96,
+        "palm_oil": 4539
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "prices": {
+        "gold": 4319.6,
+        "iron_ore": 101.66,
+        "fishmeal": 2044.75,
+        "copper": 6.45,
+        "brent": 78.42,
+        "sugar": 13.85,
+        "wheat": 620.21,
+        "soybean_oil": 68.05,
+        "palm_oil": 4574
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "prices": {
+        "gold": 4153.5,
+        "iron_ore": 101.28,
+        "fishmeal": 2044.75,
+        "copper": 6.42,
+        "brent": 78.98,
+        "sugar": 13.59,
+        "wheat": 611.26,
+        "soybean_oil": 66.46,
+        "palm_oil": 4573
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "prices": {
+        "gold": 4151.74,
+        "iron_ore": 101.14,
+        "fishmeal": 2044.75,
+        "copper": 6.39,
+        "brent": 79.98,
+        "sugar": 13.59,
+        "wheat": 611.94,
+        "soybean_oil": 66.26,
+        "palm_oil": 4646
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "prices": {
+        "gold": 4151.74,
+        "iron_ore": 101.14,
+        "fishmeal": 2044.75,
+        "copper": 6.39,
+        "brent": 79.98,
+        "sugar": 13.59,
+        "wheat": 611.94,
+        "soybean_oil": 66.26,
+        "palm_oil": 4646
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "prices": {
+        "gold": 4171.54,
+        "iron_ore": 101.14,
+        "fishmeal": 2044.75,
+        "copper": 6.38,
+        "brent": 81.16,
+        "sugar": 13.59,
+        "wheat": 611.94,
+        "soybean_oil": 66.26,
+        "palm_oil": 4646
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "prices": {
+        "gold": 4144.05,
+        "iron_ore": 100.78,
+        "fishmeal": 2044.75,
+        "copper": 6.41,
+        "brent": 77.84,
+        "sugar": 13.36,
+        "wheat": 605.93,
+        "soybean_oil": 67.25,
+        "palm_oil": 4672
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "prices": {
+        "gold": 4062.72,
+        "iron_ore": 100.78,
+        "fishmeal": 2044.75,
+        "copper": 6.19,
+        "brent": 76.77,
+        "sugar": 13.4,
+        "wheat": 597.08,
+        "soybean_oil": 66.89,
+        "palm_oil": 4658
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "prices": {
+        "gold": 3995.39,
+        "iron_ore": 100.52,
+        "fishmeal": 2044.75,
+        "copper": 6.04,
+        "brent": 73.21,
+        "sugar": 13.41,
+        "wheat": 594.73,
+        "soybean_oil": 65.94,
+        "palm_oil": 4633
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "prices": {
+        "gold": 4004.16,
+        "iron_ore": 100.52,
+        "fishmeal": 2044.75,
+        "copper": 6.11,
+        "brent": 74.98,
+        "sugar": 13.54,
+        "wheat": 600.41,
+        "soybean_oil": 67.3,
+        "palm_oil": 4557
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "prices": {
+        "gold": 4087.01,
+        "iron_ore": 100.33,
+        "fishmeal": 2044.75,
+        "copper": 6.2,
+        "brent": 73.61,
+        "sugar": 14,
+        "wheat": 588.42,
+        "soybean_oil": 66.85,
+        "palm_oil": 4568
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "prices": {
+        "gold": 4087.01,
+        "iron_ore": 100.33,
+        "fishmeal": 2044.75,
+        "copper": 6.2,
+        "brent": 73.61,
+        "sugar": 14,
+        "wheat": 588.42,
+        "soybean_oil": 66.85,
+        "palm_oil": 4568
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "prices": {
+        "gold": 4068.9,
+        "iron_ore": 100.33,
+        "fishmeal": 2044.75,
+        "copper": 6.19,
+        "brent": 72.81,
+        "sugar": 14,
+        "wheat": 588.42,
+        "soybean_oil": 66.85,
+        "palm_oil": 4568
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "prices": {
+        "gold": 3969.81,
+        "iron_ore": 100.33,
+        "fishmeal": 2044.75,
+        "copper": 6.18,
+        "brent": 73.28,
+        "sugar": 14.31,
+        "wheat": 578.29,
+        "soybean_oil": 66.51,
+        "palm_oil": 4588
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "prices": {
+        "gold": 3980.45,
+        "iron_ore": 100.2,
+        "fishmeal": 2044.75,
+        "copper": 6.25,
+        "brent": 73.36,
+        "refined_petroleum": 3.29,
+        "sugar": 14.32,
+        "wheat": 587.97,
+        "soybean_oil": 65.21,
+        "palm_oil": 4546
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "prices": {
+        "gold": 4069.95,
+        "iron_ore": 100.2,
+        "fishmeal": 2044.75,
+        "copper": 6.16,
+        "brent": 71.11,
+        "refined_petroleum": 3.22,
+        "sugar": 14.99,
+        "wheat": 601.69,
+        "soybean_oil": 65.45,
+        "palm_oil": 4557
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "prices": {
+        "gold": 4175.94,
+        "iron_ore": 98.36,
+        "fishmeal": 2044.75,
+        "copper": 6.19,
+        "brent": 71.6,
+        "refined_petroleum": 3.19,
+        "sugar": 14.85,
+        "wheat": 600.88,
+        "soybean_oil": 65.53,
+        "palm_oil": 4506
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "prices": {
+        "gold": 4170.25,
+        "iron_ore": 98.25,
+        "fishmeal": 2044.75,
+        "copper": 6.23,
+        "brent": 71.98,
+        "refined_petroleum": 3.19,
+        "sugar": 14.85,
+        "wheat": 601.84,
+        "soybean_oil": 65.54,
+        "palm_oil": 4480
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "prices": {
+        "gold": 4170.25,
+        "iron_ore": 98.25,
+        "fishmeal": 2044.75,
+        "copper": 6.23,
+        "brent": 71.98,
+        "refined_petroleum": 3.19,
+        "sugar": 14.85,
+        "wheat": 601.84,
+        "soybean_oil": 65.54,
+        "palm_oil": 4480
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "prices": {
+        "gold": 4165.17,
+        "iron_ore": 98.25,
+        "fishmeal": 2044.75,
+        "copper": 6.24,
+        "brent": 71.62,
+        "refined_petroleum": 3.19,
+        "sugar": 14.85,
+        "wheat": 601.84,
+        "soybean_oil": 65.54,
+        "palm_oil": 4480
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "prices": {
+        "gold": 4131.01,
+        "iron_ore": 98.25,
+        "fishmeal": 2044.75,
+        "copper": 6.25,
+        "brent": 72.07,
+        "refined_petroleum": 3.31,
+        "sugar": 15.16,
+        "wheat": 615.85,
+        "soybean_oil": 66.6,
+        "palm_oil": 4550
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "prices": {
+        "gold": 4123.38,
+        "iron_ore": 98.02,
+        "fishmeal": 2044.75,
+        "copper": 6.18,
+        "brent": 75.89,
+        "refined_petroleum": 3.37,
+        "sugar": 15.1,
+        "wheat": 619.69,
+        "soybean_oil": 67.22,
+        "palm_oil": 4547
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "prices": {
+        "gold": 4064.24,
+        "iron_ore": 98.86,
+        "fishmeal": 2044.75,
+        "copper": 6.14,
+        "brent": 79.32,
+        "refined_petroleum": 3.72,
+        "sugar": 15.12,
+        "wheat": 608.75,
+        "soybean_oil": 69.37,
+        "palm_oil": 4609
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "prices": {
+        "gold": 4120.11,
+        "iron_ore": 98.86,
+        "fishmeal": 2044.75,
+        "copper": 6.27,
+        "brent": 75.85,
+        "refined_petroleum": 3.58,
+        "sugar": 15.15,
+        "wheat": 621.49,
+        "soybean_oil": 68.63,
+        "palm_oil": 4594
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "prices": {
+        "gold": 4121.05,
+        "iron_ore": 98.72,
+        "fishmeal": 2044.75,
+        "copper": 6.31,
+        "brent": 75.23,
+        "refined_petroleum": 3.57,
+        "sugar": 14.86,
+        "wheat": 642.43,
+        "soybean_oil": 68.94,
+        "palm_oil": 4513
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "prices": {
+        "gold": 4121.05,
+        "iron_ore": 98.72,
+        "fishmeal": 2044.75,
+        "copper": 6.31,
+        "brent": 75.23,
+        "refined_petroleum": 3.57,
+        "sugar": 14.86,
+        "wheat": 642.43,
+        "soybean_oil": 68.94,
+        "palm_oil": 4513
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "prices": {
+        "gold": 4060.39,
+        "iron_ore": 98.72,
+        "fishmeal": 2044.75,
+        "copper": 6.28,
+        "brent": 78.47,
+        "refined_petroleum": 3.57,
+        "sugar": 14.86,
+        "wheat": 642.43,
+        "soybean_oil": 68.94,
+        "palm_oil": 4513
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "prices": {
+        "gold": 4016.55,
+        "iron_ore": 98.72,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 83,
+        "refined_petroleum": 3.87,
+        "sugar": 14.76,
+        "wheat": 639.19,
+        "soybean_oil": 71.03,
+        "palm_oil": 4533
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "prices": {
+        "gold": 4031.03,
+        "iron_ore": 98.92,
+        "fishmeal": 2044.75,
+        "copper": 6.39,
+        "brent": 84.32,
+        "refined_petroleum": 4.05,
+        "sugar": 14.92,
+        "wheat": 648.04,
+        "soybean_oil": 70.67,
+        "palm_oil": 4573
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "prices": {
+        "gold": 4036.23,
+        "iron_ore": 98.92,
+        "fishmeal": 2044.75,
+        "copper": 6.4,
+        "brent": 84.2,
+        "refined_petroleum": 3.99,
+        "sugar": 14.86,
+        "wheat": 681.69,
+        "soybean_oil": 70.88,
+        "palm_oil": 4569
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "prices": {
+        "gold": 3991.36,
+        "iron_ore": 98.88,
+        "fishmeal": 2044.75,
+        "copper": 6.32,
+        "brent": 84.08,
+        "refined_petroleum": 4.07,
+        "sugar": 14.41,
+        "wheat": 678.96,
+        "soybean_oil": 70.44,
+        "palm_oil": 4574
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "prices": {
+        "gold": 4016.95,
+        "iron_ore": 98.88,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 86.92,
+        "refined_petroleum": 4.09,
+        "sugar": 14.82,
+        "wheat": 690.78,
+        "soybean_oil": 72.36,
+        "palm_oil": 4565
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "prices": {
+        "gold": 4016.95,
+        "iron_ore": 98.88,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 86.92,
+        "refined_petroleum": 4.09,
+        "sugar": 14.82,
+        "wheat": 690.78,
+        "soybean_oil": 72.36,
+        "palm_oil": 4565
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "prices": {
+        "gold": 4024.09,
+        "iron_ore": 98.88,
+        "fishmeal": 2044.75,
+        "copper": 6.3,
+        "brent": 89.47,
+        "refined_petroleum": 4.09,
+        "sugar": 14.82,
+        "wheat": 690.78,
+        "soybean_oil": 72.36,
+        "palm_oil": 4565
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "prices": {
+        "gold": 4046.84,
+        "iron_ore": 98.7,
+        "fishmeal": 2044.75,
+        "copper": 6.37,
+        "brent": 87.24,
+        "refined_petroleum": 4.12,
+        "sugar": 14.81,
+        "wheat": 679.24,
+        "soybean_oil": 72.03,
+        "palm_oil": 4643
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "prices": {
+        "gold": 4130.79,
+        "iron_ore": 98.7,
+        "fishmeal": 2044.75,
+        "copper": 6.57,
+        "brent": 89.67,
+        "refined_petroleum": 4.14,
+        "sugar": 14.9,
+        "wheat": 685.32,
+        "soybean_oil": 71.47,
+        "palm_oil": 4610
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "prices": {
+        "gold": 4124.64,
+        "iron_ore": 98.38,
+        "fishmeal": 2044.75,
+        "copper": 6.52,
+        "brent": 92.28,
+        "refined_petroleum": 4.14,
+        "sugar": 14.75,
+        "wheat": 712.6,
+        "soybean_oil": 72.62,
+        "palm_oil": 4622
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "prices": {
+        "gold": 4029.39,
+        "iron_ore": 98.38,
+        "fishmeal": 2044.75,
+        "copper": 6.37,
+        "brent": 95.57,
+        "refined_petroleum": 4.36,
+        "sugar": 14.68,
+        "wheat": 701.19,
+        "soybean_oil": 72.75,
+        "palm_oil": 4710
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "prices": {
+        "gold": 4052,
+        "iron_ore": 98.42,
+        "fishmeal": 2044.75,
+        "copper": 6.38,
+        "brent": 93.62,
+        "refined_petroleum": 4.23,
+        "sugar": 14.76,
+        "wheat": 687.04,
+        "soybean_oil": 71.77,
+        "palm_oil": 4722
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "prices": {
+        "gold": 4052,
+        "iron_ore": 98.42,
+        "fishmeal": 2044.75,
+        "copper": 6.38,
+        "brent": 93.62,
+        "refined_petroleum": 4.23,
+        "sugar": 14.76,
+        "wheat": 687.04,
+        "soybean_oil": 71.77,
+        "palm_oil": 4722
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "prices": {
+        "gold": 4090.84,
+        "iron_ore": 98.42,
+        "fishmeal": 2044.75,
+        "copper": 6.41,
+        "brent": 87.13,
+        "refined_petroleum": 4.23,
+        "sugar": 14.76,
+        "wheat": 687.04,
+        "soybean_oil": 71.77,
+        "palm_oil": 4722
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "prices": {
+        "gold": 4049.45,
+        "iron_ore": 98.42,
+        "fishmeal": 2044.75,
+        "copper": 6.43,
+        "brent": 85.36,
+        "refined_petroleum": 4.1,
+        "sugar": 14.56,
+        "wheat": 666.47,
+        "soybean_oil": 69.48,
+        "palm_oil": 4673
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "prices": {
+        "gold": 4023.62,
+        "iron_ore": 98.35,
+        "fishmeal": 2044.75,
+        "copper": 6.39,
+        "brent": 83,
+        "refined_petroleum": 4.16,
+        "sugar": 14.56,
+        "wheat": 672.88,
+        "soybean_oil": 68.98,
+        "palm_oil": 4642
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "prices": {
+        "gold": 4058.79,
+        "iron_ore": 98.3,
+        "fishmeal": 2044.75,
+        "copper": 6.42,
+        "brent": 87.91,
+        "refined_petroleum": 4.43,
+        "sugar": 14.5,
+        "wheat": 668.25,
+        "soybean_oil": 67.58,
+        "palm_oil": 4664
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "prices": {
+        "gold": 4074.93,
+        "iron_ore": 98.27,
+        "fishmeal": 2044.75,
+        "copper": 6.55,
+        "brent": 86.7,
+        "refined_petroleum": 4.24,
+        "sugar": 14.5,
+        "wheat": 672.81,
+        "soybean_oil": 67.26,
+        "palm_oil": 4683
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "prices": {
+        "gold": 4042.97,
+        "iron_ore": 98.27,
+        "fishmeal": 2044.75,
+        "copper": 6.56,
+        "brent": 89.62,
+        "refined_petroleum": 4.16,
+        "sugar": 14.5,
+        "wheat": 648.45,
+        "soybean_oil": 67.03,
+        "palm_oil": 4643
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "prices": {
+        "gold": 4042.97,
+        "iron_ore": 98.27,
+        "fishmeal": 2044.75,
+        "copper": 6.56,
+        "brent": 89.62,
+        "refined_petroleum": 4.16,
+        "sugar": 14.5,
+        "wheat": 648.45,
+        "soybean_oil": 67.03,
+        "palm_oil": 4643
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "prices": {
+        "gold": 4064.91,
+        "iron_ore": 98.27,
+        "fishmeal": 2044.75,
+        "copper": 6.6,
+        "brent": 83.25,
+        "refined_petroleum": 4.16,
+        "sugar": 14.5,
+        "wheat": 648.45,
+        "soybean_oil": 67.03,
+        "palm_oil": 4643
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "prices": {
+        "gold": 4052.4,
+        "iron_ore": 98.27,
+        "fishmeal": 2044.75,
+        "copper": 6.61,
+        "brent": 83.03,
+        "refined_petroleum": 3.9,
+        "sugar": 15.01,
+        "wheat": 662.14,
+        "soybean_oil": 68.09,
+        "palm_oil": 4629
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "prices": {
+        "gold": 4128.31,
+        "iron_ore": 93.66,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 78.37,
+        "refined_petroleum": 3.76,
+        "sugar": 15.06,
+        "wheat": 648.97,
+        "soybean_oil": 67.4,
+        "palm_oil": 4696
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "prices": {
+        "gold": 4265.46,
+        "iron_ore": 93.7,
+        "fishmeal": 2044.75,
+        "copper": 6.81,
+        "brent": 79.02,
+        "refined_petroleum": 3.82,
+        "sugar": 15.17,
+        "wheat": 655.7,
+        "soybean_oil": 67.18,
+        "palm_oil": 4702
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "prices": {
+        "gold": 4266.15,
+        "iron_ore": 93.91,
+        "fishmeal": 2044.75,
+        "copper": 6.79,
+        "brent": 82.61,
+        "refined_petroleum": 3.97,
+        "sugar": 15.58,
+        "wheat": 642.4,
+        "soybean_oil": 67.29,
+        "palm_oil": 4686
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "prices": {
+        "gold": 4343.43,
+        "iron_ore": 94.45,
+        "fishmeal": 2044.75,
+        "copper": 6.65,
+        "brent": 81.43,
+        "refined_petroleum": 3.91,
+        "sugar": 16.49,
+        "wheat": 651.08,
+        "soybean_oil": 67.84,
+        "palm_oil": 4677
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "prices": {
+        "gold": 4343.43,
+        "iron_ore": 94.45,
+        "fishmeal": 2044.75,
+        "copper": 6.65,
+        "brent": 81.43,
+        "refined_petroleum": 3.91,
+        "sugar": 16.49,
+        "wheat": 651.08,
+        "soybean_oil": 67.84,
+        "palm_oil": 4677
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "prices": {
+        "gold": 4326.72,
+        "iron_ore": 94.45,
+        "fishmeal": 2044.75,
+        "copper": 6.66,
+        "brent": 83.58,
+        "refined_petroleum": 3.91,
+        "sugar": 16.49,
+        "wheat": 651.08,
+        "soybean_oil": 67.84,
+        "palm_oil": 4677
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "prices": {
+        "gold": 4416.76,
+        "iron_ore": 94.45,
+        "fishmeal": 2044.75,
+        "copper": 6.7,
+        "brent": 87.02,
+        "refined_petroleum": 4.21,
+        "sugar": 16.46,
+        "wheat": 652.41,
+        "soybean_oil": 69.01,
+        "palm_oil": 4748
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "prices": {
+        "gold": 4400.12,
+        "iron_ore": 94.55,
+        "fishmeal": 2044.75,
+        "copper": 6.71,
+        "brent": 88.14,
+        "refined_petroleum": 4.33,
+        "sugar": 16.74,
+        "wheat": 643.17,
+        "soybean_oil": 68.16,
+        "palm_oil": 4697
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "prices": {
+        "gold": 4323.52,
+        "iron_ore": 95.08,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 87.32,
+        "refined_petroleum": 4.35,
+        "sugar": 16.43,
+        "wheat": 665.36,
+        "soybean_oil": 68.66,
+        "palm_oil": 4724
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "prices": {
+        "gold": 4375.5,
+        "iron_ore": 95.09,
+        "fishmeal": 2044.75,
+        "copper": 6.66,
+        "brent": 85.9,
+        "refined_petroleum": 4.31,
+        "sugar": 16.75,
+        "wheat": 664.75,
+        "soybean_oil": 68.23,
+        "palm_oil": 4710
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "prices": {
+        "gold": 4375.5,
+        "iron_ore": 95.17,
+        "fishmeal": 2044.75,
+        "copper": 6.69,
+        "brent": 87.28,
+        "refined_petroleum": 4.33,
+        "sugar": 16.6,
+        "wheat": 685.63,
+        "soybean_oil": 68.76,
+        "palm_oil": 4710
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "prices": {
+        "gold": 4396.91,
+        "iron_ore": 95.17,
+        "fishmeal": 2044.75,
+        "copper": 6.69,
+        "brent": 87.28,
+        "refined_petroleum": 4.33,
+        "sugar": 16.6,
+        "wheat": 685.63,
+        "soybean_oil": 68.76,
+        "palm_oil": 4710
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "prices": {
+        "gold": 4391.81,
+        "iron_ore": 95.17,
+        "fishmeal": 2044.75,
+        "copper": 6.71,
+        "brent": 87.34,
+        "refined_petroleum": 4.33,
+        "sugar": 16.6,
+        "wheat": 685.63,
+        "soybean_oil": 68.76,
+        "palm_oil": 4717
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "prices": {
+        "gold": 4354.95,
+        "iron_ore": 95.17,
+        "fishmeal": 2044.75,
+        "copper": 6.7,
+        "brent": 89.79,
+        "refined_petroleum": 4.53,
+        "sugar": 16.9,
+        "wheat": 686.53,
+        "soybean_oil": 70.68,
+        "palm_oil": 4754
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "prices": {
+        "gold": 4462.27,
+        "iron_ore": 94.95,
+        "fishmeal": 2044.75,
+        "copper": 6.53,
+        "brent": 90.15,
+        "refined_petroleum": 4.55,
+        "sugar": 17.48,
+        "wheat": 674.65,
+        "soybean_oil": 69.56,
+        "palm_oil": 4873
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "prices": {
+        "gold": 4498.8,
+        "iron_ore": 95.28,
+        "fishmeal": 2044.75,
+        "copper": 6.58,
+        "brent": 90.13,
+        "refined_petroleum": 4.52,
+        "sugar": 17.56,
+        "wheat": 693.6,
+        "soybean_oil": 69.87,
+        "palm_oil": 4893
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "prices": {
+        "gold": 4535.34,
+        "iron_ore": 95.17,
+        "fishmeal": 2044.75,
+        "copper": 6.58,
+        "brent": 91.69,
+        "refined_petroleum": 4.57,
+        "sugar": 17.5,
+        "wheat": 696.5,
+        "soybean_oil": 71.3,
+        "palm_oil": 4961
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "prices": {
+        "gold": 4607.35,
+        "iron_ore": 95.21,
+        "fishmeal": 2044.75,
+        "copper": 6.67,
+        "brent": 92.29,
+        "refined_petroleum": 4.47,
+        "sugar": 17.6,
+        "wheat": 699.07,
+        "soybean_oil": 69.55,
+        "palm_oil": 5018
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "prices": {
+        "gold": 4607.35,
+        "iron_ore": 95.21,
+        "fishmeal": 2044.75,
+        "copper": 6.67,
+        "brent": 92.29,
+        "refined_petroleum": 4.47,
+        "sugar": 17.6,
+        "wheat": 699.07,
+        "soybean_oil": 69.55,
+        "palm_oil": 5018
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "prices": {
+        "gold": 4641.52,
+        "iron_ore": 95.21,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 91.74,
+        "refined_petroleum": 4.47,
+        "sugar": 17.6,
+        "wheat": 699.07,
+        "soybean_oil": 69.55,
+        "palm_oil": 5018
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "prices": {
+        "gold": 4633.6,
+        "iron_ore": 95.21,
+        "fishmeal": 2044.75,
+        "copper": 6.71,
+        "brent": 90.33,
+        "refined_petroleum": 4.27,
+        "sugar": 17.66,
+        "wheat": 698.83,
+        "soybean_oil": 67.34,
+        "palm_oil": 4946
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "prices": {
+        "gold": 4642.71,
+        "iron_ore": 95.4,
+        "fishmeal": 2044.75,
+        "copper": 6.79,
+        "brent": 85.81,
+        "refined_petroleum": 4.19,
+        "sugar": 17.25,
+        "wheat": 703.89,
+        "soybean_oil": 67.73,
+        "palm_oil": 4946
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "prices": {
+        "gold": 4625.48,
+        "iron_ore": 95.4,
+        "fishmeal": 2044.75,
+        "copper": 6.72,
+        "brent": 86.55,
+        "refined_petroleum": 4.23,
+        "sugar": 17.62,
+        "wheat": 747.41,
+        "soybean_oil": 67.65,
+        "palm_oil": 4852
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "prices": {
+        "gold": 4579.93,
+        "iron_ore": 95.58,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 88.37,
+        "refined_petroleum": 4.27,
+        "sugar": 18.22,
+        "wheat": 757.06,
+        "soybean_oil": 68.33,
+        "palm_oil": 4816
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "prices": {
+        "gold": 4454.08,
+        "iron_ore": 95.84,
+        "fishmeal": 2044.75,
+        "copper": 6.64,
+        "brent": 87.96,
+        "refined_petroleum": 4.35,
+        "sugar": 17.56,
+        "wheat": 783.78,
+        "soybean_oil": 70.96,
+        "palm_oil": 4894
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "prices": {
+        "gold": 4454.08,
+        "iron_ore": 95.84,
+        "fishmeal": 2044.75,
+        "copper": 6.64,
+        "brent": 87.96,
+        "refined_petroleum": 4.35,
+        "sugar": 17.56,
+        "wheat": 783.78,
+        "soybean_oil": 70.96,
+        "palm_oil": 4894
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "prices": {
+        "gold": 4422.45,
+        "iron_ore": 95.84,
+        "fishmeal": 2044.75,
+        "copper": 6.62,
+        "brent": 89.31,
+        "refined_petroleum": 4.35,
+        "sugar": 17.56,
+        "wheat": 783.78,
+        "soybean_oil": 70.96,
+        "palm_oil": 4894
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "prices": {
+        "gold": 4436.61,
+        "iron_ore": 95.84,
+        "fishmeal": 2044.75,
+        "copper": 6.7,
+        "brent": 90.3,
+        "refined_petroleum": 4.49,
+        "sugar": 17.79,
+        "wheat": 775.2,
+        "soybean_oil": 71.05,
+        "palm_oil": 4894
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "prices": {
+        "gold": 4303.22,
+        "iron_ore": 99.98,
+        "fishmeal": 2044.75,
+        "copper": 6.55,
+        "brent": 94.48,
+        "refined_petroleum": 4.72,
+        "sugar": 18.38,
+        "wheat": 781.39,
+        "soybean_oil": 72.58,
+        "palm_oil": 4973
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "prices": {
+        "gold": 4431.48,
+        "iron_ore": 99.33,
+        "fishmeal": 2044.75,
+        "copper": 6.61,
+        "brent": 94.36,
+        "refined_petroleum": 4.72,
+        "sugar": 18.71,
+        "wheat": 775.42,
+        "soybean_oil": 70.9,
+        "palm_oil": 4958
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "prices": {
+        "gold": 4466.97,
+        "iron_ore": 97.72,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 94.8,
+        "refined_petroleum": 4.72,
+        "sugar": 17.99,
+        "wheat": 752.77,
+        "soybean_oil": 70.04,
+        "palm_oil": 4904
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "prices": {
+        "gold": 4432.56,
+        "iron_ore": 99.57,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 94.36,
+        "refined_petroleum": 4.72,
+        "sugar": 18.02,
+        "wheat": 733.74,
+        "soybean_oil": 69.21,
+        "palm_oil": 4929
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "prices": {
+        "gold": 4432.56,
+        "iron_ore": 99.57,
+        "fishmeal": 2044.75,
+        "copper": 6.68,
+        "brent": 94.36,
+        "refined_petroleum": 4.72,
+        "sugar": 18.02,
+        "wheat": 733.74,
+        "soybean_oil": 69.21,
+        "palm_oil": 4929
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "prices": {
+        "gold": 4404.16,
+        "iron_ore": 99.57,
+        "fishmeal": 2044.75,
+        "copper": 6.67,
+        "brent": 95.3,
+        "refined_petroleum": 4.72,
+        "sugar": 18.02,
+        "wheat": 733.74,
+        "soybean_oil": 69.21,
+        "palm_oil": 4929
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "prices": {
+        "gold": 4437.77,
+        "iron_ore": 99.57,
+        "fishmeal": 2044.75,
+        "copper": 6.74,
+        "brent": 95.79,
+        "refined_petroleum": 4.72,
+        "sugar": 18.02,
+        "wheat": 733.74,
+        "soybean_oil": 69.21,
+        "palm_oil": 4978
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "prices": {
+        "gold": 4375,
+        "iron_ore": 99.57,
+        "fishmeal": 2044.75,
+        "copper": 6.79,
+        "brent": 97.78,
+        "refined_petroleum": 4.72,
+        "sugar": 18.08,
+        "wheat": 749,
+        "soybean_oil": 70.8,
+        "palm_oil": 4976
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "prices": {
+        "gold": 4375.06,
+        "iron_ore": 100.02,
+        "fishmeal": 2044.75,
+        "copper": 6.75,
+        "brent": 97.77,
+        "refined_petroleum": 4.72,
+        "sugar": 18.08,
+        "wheat": 745.23,
+        "soybean_oil": 70.72,
+        "palm_oil": 4976
+      }
+    }
+  ]
+}
