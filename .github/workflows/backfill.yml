@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "20"
       - name: Seed history + base
-        run: node updater/backfill-history.mjs
+        run: node backfill-history.mjs
         env:
           COMMODITIES_API_KEY: ${{ secrets.COMMODITIES_API_KEY }}
           DAYS: ${{ inputs.days }}
