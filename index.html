@@ -99,18 +99,25 @@
   .ch-head .note{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
   .chart-host{position:relative}
   .chart-empty{color:var(--muted);font-size:13.5px;line-height:1.6;padding:30px 4px}
-  svg .grid{stroke:var(--line-2);stroke-width:1}
-  svg .axis{stroke:var(--line);stroke-width:1}
+  .chart-host svg{display:block;width:100%;height:auto}
+  svg .grid{stroke:var(--line-2);stroke-width:1;shape-rendering:crispEdges}
+  svg .axis{stroke:var(--line);stroke-width:1;shape-rendering:crispEdges}
+  svg .baseline{stroke:#AEB9B5;stroke-width:1;stroke-dasharray:3 4}
+  svg .baselbl{fill:var(--muted);font-size:10px;font-family:var(--mono)}
   svg .lbl{fill:var(--muted);font-size:11px;font-family:var(--sans)}
-  .cc-line{fill:none}
-  .cc-tip{position:absolute;left:0;top:0;pointer-events:none;opacity:0;transform:translate(-50%,-108%);background:var(--ink);color:#fff;font-size:12px;padding:8px 11px;border-radius:8px;white-space:nowrap;box-shadow:0 8px 22px -10px rgba(16,38,43,.7);transition:opacity .12s;z-index:5;line-height:1.5}
-  .cc-tip .tt-date{color:#8FD6C4;font-weight:600;margin-bottom:4px;font-family:var(--mono);font-size:11px}
+  svg .vlbl{font-family:var(--mono);font-size:11px}
+  .cc-line{fill:none;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
+  .cc-area{stroke:none}
+  .cc-tip{position:absolute;left:0;top:0;pointer-events:none;opacity:0;transform:translate(-50%,-112%);background:var(--ink);color:#fff;font-size:12px;padding:9px 12px;border-radius:9px;white-space:nowrap;box-shadow:0 10px 26px -10px rgba(16,38,43,.75);transition:opacity .12s;z-index:6;line-height:1.5;min-width:134px}
+  .cc-tip .tt-date{color:#8FD6C4;font-weight:600;margin-bottom:5px;font-family:var(--mono);font-size:11px}
+  .cc-tip .tt-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .cc-tip .tt-row.idx{font-weight:600}
   .cc-tip .sw{display:inline-block;width:11px;height:3px;border-radius:2px;margin-right:7px;vertical-align:middle}
-  .cc-tip b{font-weight:600;margin-left:3px;font-family:var(--mono)}
-  .legend{display:flex;flex-wrap:wrap;gap:8px 10px;margin:14px 0 0}
-  .legend .li{display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:12.5px;color:var(--ink-2);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:5px 12px;cursor:pointer}
-  .legend .li:hover{border-color:var(--ink-2)}
-  .legend .li.off{opacity:.45}
+  .cc-tip b{font-family:var(--mono);font-weight:600}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 10px;margin:16px 0 2px}
+  .legend .li{display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:12.5px;color:var(--ink-2);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:5px 12px;cursor:pointer;transition:border-color .15s,background .15s,opacity .15s}
+  .legend .li:hover{border-color:var(--ink-2);background:var(--paper)}
+  .legend .li.off{opacity:.4}
   .legend .li.off .sw{filter:grayscale(1)}
   .legend .sw{width:16px;height:3px;border-radius:2px;flex:0 0 auto}
 
@@ -272,8 +279,8 @@ function getBase(key){ const b=BASES[key]; if(b!=null && !isNaN(b)) return b; co
 async function fetchBases(){ const r=await fetch(CONFIG.basesUrl,{cache:"no-store"}); if(!r.ok) throw new Error("no base"); return r.json(); }
 
 const PALETTE = {
-  export: { index:"#9A6B1F", commodities:["#C79A4B","#0E6E5B","#4E7F97","#B4703C","#7A8683"] },
-  import: { index:"#3C6A84", commodities:["#0A5446","#9A6B1F","#C79A4B","#5C8A5A","#B4703C"] },
+  export: { index:"#9A6B1F", commodities:["#0E6E5B","#3C6A84","#B5532E","#6E8C3B","#8A6D9B"] },
+  import: { index:"#3C6A84", commodities:["#0E6E5B","#B98A2E","#B5532E","#6E8C3B","#8A6D9B"] },
 };
 
 const $ = id => document.getElementById(id);
@@ -331,93 +338,9 @@ function renderBasket(name,result,asOf){
 }
 
 /* ---------- charts (SVG, no library) ---------- */
-const chartData={}; const chartHidden={compare:new Set(),export:new Set(),import:new Set()}; const chartDrawn={};
-function buildSeries(name,history){
-  const members=CONFIG.baskets[name].members;
-  const rows=(history&&history.series)||[];
-  const labels=rows.map(r=>r.date);
-  const pal=PALETTE[name];
-  const idxVals=rows.map(r=>{
-    let wSum=0,contrib=0;
-    for(const m of members){ const p=r.prices?.[m.key]; if(p!=null){ wSum+=m.weight; contrib+=m.weight*(p/getBase(m.key)); } }
-    return wSum>0?+(100*contrib/wSum).toFixed(2):null;
-  });
-  const series=[{ key:"__index", name:(name==="export"?"Indice exportations":"Indice importations"), color:pal.index, width:3, values:idxVals }];
-  members.forEach((m,i)=>{
-    series.push({ key:m.key, name:m.name, color:pal.commodities[i%pal.commodities.length], width:1.8,
-      values: rows.map(r=>{ const p=r.prices?.[m.key]; return p!=null?+(100*p/getBase(m.key)).toFixed(2):null; }) });
-  });
-  series.forEach(s=> s.visible=!chartHidden[name].has(s.key));
-  return { labels, series };
-}
-function drawTimeChart(name){
-  const st=chartData[name]; const host=$("chart-"+name); const empt=$("empty-"+name);
-  const labels=st.labels, series=st.series, n=labels.length;
-  const enough = n>=2 && series[0].values.filter(v=>v!=null).length>=2;
-  if(!enough){ host.style.display="none"; if(empt){ empt.style.display="block"; empt.textContent="Le graphique se remplit à mesure que les prix quotidiens s'accumulent — repassez après quelques exécutions planifiées. Pour l'alimenter tout de suite en historique réel, lancez le script de préchargement (optionnel)."; } renderLegend(name); return; }
-  host.style.display="block"; if(empt) empt.style.display="none";
+const chartData={}; const chartHidden={compare:new Set(),export:new Set(),import:new Set()};
+const chartDrawn={}; const chartFocus={}; let resizeBound=false;
 
-  const W=720,H=320,PADL=46,PADR=18,PADT=18,PADB=42;
-  const vis=series.filter(s=>s.visible);
-  let vals=[]; vis.forEach(s=>s.values.forEach(v=>{ if(v!=null) vals.push(v); }));
-  if(!vals.length) vals=[100];
-  let ymin=Math.min(...vals),ymax=Math.max(...vals);
-  if(ymin===ymax){ ymin-=1; ymax+=1; }
-  const padR=(ymax-ymin)*0.08; ymin=Math.floor(ymin-padR); ymax=Math.ceil(ymax+padR);
-  const X=i=> n===1?(PADL+(W-PADL-PADR)/2):(PADL+(i/(n-1))*(W-PADL-PADR));
-  const Y=v=> PADT+(ymax-v)/(ymax-ymin)*(H-PADT-PADB);
-
-  let grid="",yl="";
-  for(let t=0;t<=5;t++){ const v=ymin+(ymax-ymin)*t/5; grid+=`<line class="grid" x1="${PADL}" y1="${Y(v).toFixed(1)}" x2="${W-PADR}" y2="${Y(v).toFixed(1)}"/>`; yl+=`<text class="lbl" x="${PADL-8}" y="${(Y(v)+3).toFixed(1)}" text-anchor="end">${Math.round(v)}</text>`; }
-  let xl=""; const step=Math.max(1,Math.round(n/6));
-  for(let i=0;i<n;i+=step){ xl+=`<text class="lbl" x="${X(i).toFixed(1)}" y="${H-PADB+18}" text-anchor="middle">${fmtDay(labels[i])}</text>`; }
-  let paths="";
-  vis.forEach(s=>{
-    let d="",pen=false;
-    s.values.forEach((v,i)=>{ if(v==null){ pen=false; return; } d+=(pen?" L":"M")+X(i).toFixed(1)+","+Y(v).toFixed(1); pen=true; });
-    if(d) paths+=`<path class="cc-line" d="${d}" stroke="${s.color}" stroke-width="${s.width}" stroke-linejoin="round" stroke-linecap="round"/>`;
-  });
-  host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Évolution de l'indice et de ses composantes">
-    ${grid}
-    <line class="axis" x1="${PADL}" y1="${PADT}" x2="${PADL}" y2="${H-PADB}"/>
-    <line class="axis" x1="${PADL}" y1="${H-PADB}" x2="${W-PADR}" y2="${H-PADB}"/>
-    ${yl}${xl}${paths}
-    <g class="hoverlayer"></g>
-  </svg>`;
-  let tip=host.querySelector(".cc-tip"); if(!tip){ tip=document.createElement("div"); tip.className="cc-tip"; host.appendChild(tip); }
-  wireHover(name,host,{X,Y,n,labels,vis,W,PADL,PADR,PADT,PADB,H});
-  if(!chartDrawn[name] && !window.matchMedia("(prefers-reduced-motion: reduce)").matches){
-    host.querySelectorAll(".cc-line").forEach(p=>{ const len=p.getTotalLength(); p.style.strokeDasharray=len; p.style.strokeDashoffset=len; p.getBoundingClientRect(); p.style.transition="stroke-dashoffset .8s ease"; requestAnimationFrame(()=>{ p.style.strokeDashoffset=0; }); });
-  }
-  chartDrawn[name]=true;
-  renderLegend(name);
-}
-function wireHover(name,host,ctx){
-  const svg=host.querySelector("svg"), hover=host.querySelector(".hoverlayer"), tip=host.querySelector(".cc-tip");
-  const {X,Y,n,labels,vis,W,PADL,PADR,PADT,PADB,H}=ctx;
-  svg.addEventListener("mousemove",ev=>{
-    const rect=svg.getBoundingClientRect();
-    const svgX=(ev.clientX-rect.left)/rect.width*W;
-    let i=Math.round((svgX-PADL)/((W-PADL-PADR)||1)*(n-1)); i=Math.max(0,Math.min(n-1,i));
-    let g=`<line x1="${X(i).toFixed(1)}" y1="${PADT}" x2="${X(i).toFixed(1)}" y2="${H-PADB}" stroke="var(--line)" stroke-width="1"/>`;
-    let rows="";
-    vis.forEach(s=>{ const v=s.values[i]; if(v==null) return; g+=`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.4" fill="var(--card)" stroke="${s.color}" stroke-width="2"/>`; rows+=`<div><span class="sw" style="background:${s.color}"></span>${s.name} <b>${fmtIdx(v)}</b></div>`; });
-    hover.innerHTML=g;
-    tip.innerHTML=`<div class="tt-date">${labels[i]}</div>${rows}`;
-    tip.style.left=(X(i)/W*rect.width)+"px"; tip.style.top=(PADT/H*rect.height+8)+"px"; tip.style.opacity="1";
-  });
-  svg.addEventListener("mouseleave",()=>{ hover.innerHTML=""; tip.style.opacity="0"; });
-}
-function renderLegend(name){
-  const leg=$("leg-"+name), series=chartData[name].series;
-  leg.innerHTML="";
-  series.forEach(s=>{
-    const b=document.createElement("button"); b.type="button"; b.className="li"+(s.visible?"":" off"); b.setAttribute("aria-pressed",s.visible?"true":"false");
-    b.innerHTML=`<span class="sw" style="background:${s.color}"></span>${s.name}`;
-    b.addEventListener("click",()=>{ s.visible=!s.visible; if(s.visible) chartHidden[name].delete(s.key); else chartHidden[name].add(s.key); drawTimeChart(name); });
-    leg.appendChild(b);
-  });
-}
 function indexLine(name, rows){
   const members=CONFIG.baskets[name].members;
   return rows.map(r=>{
@@ -426,21 +349,159 @@ function indexLine(name, rows){
     return w>0?+(100*c/w).toFixed(2):null;
   });
 }
+function buildSeries(name,history){
+  const members=CONFIG.baskets[name].members;
+  const rows=(history&&history.series)||[];
+  const labels=rows.map(r=>r.date);
+  const pal=PALETTE[name];
+  const series=[{ key:"__index", name:(name==="export"?"Indice exportations":"Indice importations"), color:pal.index, width:3, area:true, values:indexLine(name,rows) }];
+  members.forEach((m,i)=>{
+    series.push({ key:m.key, name:m.name, color:pal.commodities[i%pal.commodities.length], width:1.7,
+      values: rows.map(r=>{ const p=r.prices?.[m.key]; return p!=null?+(100*p/getBase(m.key)).toFixed(2):null; }) });
+  });
+  series.forEach(s=> s.visible=!chartHidden[name].has(s.key));
+  return { labels, series };
+}
 function buildCompareSeries(history){
   const rows=(history&&history.series)||[];
   const labels=rows.map(r=>r.date);
   const series=[
-    { key:"__export", name:"Indice exportations", color:PALETTE.export.index, width:2.6, values:indexLine("export",rows) },
-    { key:"__import", name:"Indice importations", color:PALETTE.import.index, width:2.6, values:indexLine("import",rows) },
+    { key:"__export", name:"Indice exportations", color:PALETTE.export.index, width:2.8, area:true, values:indexLine("export",rows) },
+    { key:"__import", name:"Indice importations", color:PALETTE.import.index, width:2.8, area:true, values:indexLine("import",rows) },
   ];
   series.forEach(s=> s.visible=!chartHidden.compare.has(s.key));
   return { labels, series };
 }
 
+/* monotone cubic smoothing (no overshoot) through {x,y} points */
+function smoothPath(pts){
+  const n=pts.length;
+  if(n===1) return `M${pts[0].x},${pts[0].y}`;
+  if(n===2) return `M${pts[0].x},${pts[0].y} L${pts[1].x},${pts[1].y}`;
+  const dx=[],dy=[],m=[];
+  for(let i=0;i<n-1;i++){ dx[i]=pts[i+1].x-pts[i].x; dy[i]=(pts[i+1].y-pts[i].y)/(dx[i]||1); }
+  m[0]=dy[0]; m[n-1]=dy[n-2];
+  for(let i=1;i<n-1;i++){ m[i]=(dy[i-1]*dy[i]<=0)?0:(dy[i-1]+dy[i])/2; }
+  for(let i=0;i<n-1;i++){
+    if(dy[i]===0){ m[i]=0; m[i+1]=0; continue; }
+    const a=m[i]/dy[i], b=m[i+1]/dy[i], h=a*a+b*b;
+    if(h>9){ const t=3/Math.sqrt(h); m[i]=t*a*dy[i]; m[i+1]=t*b*dy[i]; }
+  }
+  let d=`M${pts[0].x.toFixed(1)},${pts[0].y.toFixed(1)}`;
+  for(let i=0;i<n-1;i++){ const h=dx[i]/3;
+    d+=` C${(pts[i].x+h).toFixed(1)},${(pts[i].y+m[i]*h).toFixed(1)} ${(pts[i+1].x-h).toFixed(1)},${(pts[i+1].y-m[i+1]*h).toFixed(1)} ${pts[i+1].x.toFixed(1)},${pts[i+1].y.toFixed(1)}`; }
+  return d;
+}
+function runs(values,X,Y){
+  const out=[]; let cur=[];
+  values.forEach((v,i)=>{ if(v==null){ if(cur.length){out.push(cur);cur=[];} } else cur.push({x:X(i),y:Y(v)}); });
+  if(cur.length) out.push(cur);
+  return out;
+}
+function renderChart(name, skipLegend){
+  const st=chartData[name]; if(!st) return;
+  const host=$("chart-"+name), empt=$("empty-"+name);
+  const labels=st.labels, series=st.series, n=labels.length;
+  const enough = n>=2 && series[0].values.filter(v=>v!=null).length>=2;
+  if(!enough){ host.style.display="none"; if(empt){ empt.style.display="block"; empt.textContent="Le graphique se remplit à mesure que les prix quotidiens s'accumulent — repassez après quelques exécutions, ou lancez le préchargement d'historique."; } if(!skipLegend) renderLegend(name); return; }
+  host.style.display="block"; if(empt) empt.style.display="none";
+
+  const W=Math.max(320,Math.round(host.clientWidth||host.getBoundingClientRect().width||640));
+  const H=W<520?260:300;
+  const PADL=42,PADR=54,PADT=16,PADB=38;
+  const vis=series.filter(s=>s.visible);
+  const focus=chartFocus[name]||null;
+
+  let vals=[100]; vis.forEach(s=>s.values.forEach(v=>{ if(v!=null) vals.push(v); }));
+  let ymin=Math.min(...vals),ymax=Math.max(...vals);
+  if(ymin===ymax){ ymin-=1; ymax+=1; }
+  const pad=(ymax-ymin)*0.10; ymin=Math.floor(ymin-pad); ymax=Math.ceil(ymax+pad);
+  const X=i=> n===1?(PADL+(W-PADL-PADR)/2):(PADL+(i/(n-1))*(W-PADL-PADR));
+  const Y=v=> PADT+(ymax-v)/(ymax-ymin)*(H-PADT-PADB);
+
+  let grid="",yl="";
+  for(let t=0;t<=5;t++){ const v=ymin+(ymax-ymin)*t/5, y=Y(v).toFixed(1);
+    grid+=`<line class="grid" x1="${PADL}" y1="${y}" x2="${W-PADR}" y2="${y}"/>`;
+    yl+=`<text class="lbl" x="${PADL-8}" y="${(Y(v)+3).toFixed(1)}" text-anchor="end">${Math.round(v)}</text>`; }
+  let baseLine="";
+  if(100>=ymin&&100<=ymax){ const y=Y(100).toFixed(1); baseLine=`<line class="baseline" x1="${PADL}" y1="${y}" x2="${W-PADR}" y2="${y}"/><text class="baselbl" x="${PADL+5}" y="${(Y(100)-5).toFixed(1)}">base 100</text>`; }
+  let xl=""; const step=Math.max(1,Math.round(n/(W<520?5:7)));
+  for(let i=0;i<n;i+=step){ xl+=`<text class="lbl" x="${X(i).toFixed(1)}" y="${H-PADB+18}" text-anchor="middle">${fmtDay(labels[i])}</text>`; }
+
+  const ordered=[...vis].sort((a,b)=>{ const fa=focus?(a.key===focus?1:0):(a.area?1:0), fb=focus?(b.key===focus?1:0):(b.area?1:0); return fa-fb; });
+  let defs="",areas="",lines=""; const endlbls=[];
+  ordered.forEach(s=>{
+    const dim=focus?(s.key!==focus):false;
+    const op=dim?0.14:(s.area?1:(focus?1:0.9));
+    const rr=runs(s.values,X,Y);
+    if(s.area){
+      const gid=`g-${name}-${s.key}`.replace(/[^\w-]/g,"");
+      defs+=`<linearGradient id="${gid}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${s.color}" stop-opacity="${dim?0.03:0.16}"/><stop offset="1" stop-color="${s.color}" stop-opacity="0"/></linearGradient>`;
+      rr.forEach(run=>{ if(run.length<2) return; const y0=(H-PADB).toFixed(1); areas+=`<path class="cc-area" d="${smoothPath(run)} L${run[run.length-1].x.toFixed(1)},${y0} L${run[0].x.toFixed(1)},${y0} Z" fill="url(#${gid})"/>`; });
+    }
+    rr.forEach(run=>{ lines+=`<path class="cc-line" d="${smoothPath(run)}" stroke="${s.color}" stroke-width="${(focus&&s.key===focus)?s.width+0.6:s.width}" opacity="${op}"/>`; });
+    for(let i=s.values.length-1;i>=0;i--){ if(s.values[i]!=null){ endlbls.push({y:Y(s.values[i]),text:fmtIdx(s.values[i]),color:s.color,op,bold:s.area}); break; } }
+  });
+  endlbls.sort((a,b)=>a.y-b.y);
+  for(let i=1;i<endlbls.length;i++){ if(endlbls[i].y-endlbls[i-1].y<13) endlbls[i].y=endlbls[i-1].y+13; }
+  endlbls.forEach(l=>{ l.y=Math.max(PADT+8,Math.min(H-PADB,l.y)); });
+  const endTxt=endlbls.map(l=>`<text class="vlbl" x="${W-PADR+7}" y="${(l.y+3).toFixed(1)}" fill="${l.color}" opacity="${l.op}" font-weight="${l.bold?700:500}">${l.text}</text>`).join("");
+
+  host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Évolution des indices">
+    <defs>${defs}</defs>
+    ${grid}${baseLine}
+    <line class="axis" x1="${PADL}" y1="${PADT}" x2="${PADL}" y2="${H-PADB}"/>
+    <line class="axis" x1="${PADL}" y1="${H-PADB}" x2="${W-PADR}" y2="${H-PADB}"/>
+    ${yl}${xl}${areas}${lines}${endTxt}
+    <g class="hoverlayer"></g>
+  </svg>`;
+  let tip=host.querySelector(".cc-tip"); if(!tip){ tip=document.createElement("div"); tip.className="cc-tip"; host.appendChild(tip); }
+  wireHover(name,host,{X,Y,n,labels,vis,W,PADL,PADR,PADT,PADB,H});
+  if(!chartDrawn[name] && !window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+    host.querySelectorAll(".cc-line").forEach(p=>{ try{ const len=p.getTotalLength(); p.style.strokeDasharray=len; p.style.strokeDashoffset=len; p.getBoundingClientRect(); p.style.transition="stroke-dashoffset .9s ease"; requestAnimationFrame(()=>{ p.style.strokeDashoffset=0; }); }catch(_){} });
+  }
+  chartDrawn[name]=true;
+  if(!skipLegend) renderLegend(name);
+}
+function wireHover(name,host,ctx){
+  const svg=host.querySelector("svg"), hover=host.querySelector(".hoverlayer"), tip=host.querySelector(".cc-tip");
+  const {X,Y,n,labels,vis,W,PADL,PADR,PADT,PADB,H}=ctx;
+  svg.addEventListener("mousemove",ev=>{
+    const rect=svg.getBoundingClientRect();
+    const svgX=(ev.clientX-rect.left)/rect.width*W;
+    let i=Math.round((svgX-PADL)/((W-PADL-PADR)||1)*(n-1)); i=Math.max(0,Math.min(n-1,i));
+    let g=`<line x1="${X(i).toFixed(1)}" y1="${PADT}" x2="${X(i).toFixed(1)}" y2="${H-PADB}" stroke="var(--ink-2)" stroke-opacity="0.3" stroke-width="1"/>`;
+    const arr=[];
+    vis.forEach(s=>{ const v=s.values[i]; if(v==null) return; g+=`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3.6" fill="var(--card)" stroke="${s.color}" stroke-width="2"/>`; arr.push({name:s.name,color:s.color,v,idx:s.key.startsWith("__")}); });
+    arr.sort((a,b)=>b.v-a.v);
+    const html=arr.map(r=>`<div class="tt-row${r.idx?" idx":""}"><span><span class="sw" style="background:${r.color}"></span>${r.name}</span><b>${fmtIdx(r.v)}</b></div>`).join("");
+    hover.innerHTML=g;
+    tip.innerHTML=`<div class="tt-date">${labels[i]}</div>${html}`;
+    const px=X(i)/W*rect.width;
+    tip.style.left=Math.max(74,Math.min(rect.width-74,px))+"px";
+    tip.style.top=(PADT/H*rect.height+4)+"px"; tip.style.opacity="1";
+  });
+  svg.addEventListener("mouseleave",()=>{ hover.innerHTML=""; tip.style.opacity="0"; });
+}
+function renderLegend(name){
+  const leg=$("leg-"+name); if(!leg) return; const series=chartData[name].series;
+  leg.innerHTML="";
+  series.forEach(s=>{
+    const b=document.createElement("button"); b.type="button"; b.className="li"+(s.visible?"":" off"); b.setAttribute("aria-pressed",s.visible?"true":"false");
+    b.innerHTML=`<span class="sw" style="background:${s.color}"></span>${s.name}`;
+    b.addEventListener("click",()=>{ s.visible=!s.visible; if(s.visible) chartHidden[name].delete(s.key); else chartHidden[name].add(s.key); chartFocus[name]=null; renderChart(name); });
+    b.addEventListener("mouseenter",()=>{ if(s.visible){ chartFocus[name]=s.key; renderChart(name,true); } });
+    b.addEventListener("mouseleave",()=>{ if(chartFocus[name]!=null){ chartFocus[name]=null; renderChart(name,true); } });
+    leg.appendChild(b);
+  });
+}
 async function renderCharts(){
   let history; try{ history=await fetchHistory(); }catch(e){ history={series:[]}; }
-  chartData.compare=buildCompareSeries(history); drawTimeChart("compare");
-  for(const name of ["export","import"]){ chartData[name]=buildSeries(name,history); drawTimeChart(name); }
+  chartData.compare=buildCompareSeries(history); renderChart("compare");
+  for(const name of ["export","import"]){ chartData[name]=buildSeries(name,history); renderChart(name); }
+  if(!resizeBound){ resizeBound=true; let raf;
+    window.addEventListener("resize",()=>{ cancelAnimationFrame(raf); raf=requestAnimationFrame(()=>{ ["compare","export","import"].forEach(nm=>{ if(chartData[nm]) renderChart(nm); }); }); });
+  }
 }
 
 /* ---------- orchestration ---------- */
