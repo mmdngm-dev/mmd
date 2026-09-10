@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-10T17:11:25.716Z",
+  "as_of": "2026-09-10T18:14:14.080Z",
   "prices": {
     "gold": {
-      "value": 4362.26,
+      "value": 4344.93,
       "unit": "USD/oz",
       "date": "2026-09-10",
       "source": "live"
@@ -20,13 +20,13 @@
       "source": "live"
     },
     "copper": {
-      "value": 6.56,
+      "value": 6.53,
       "unit": "USD/lb",
       "date": "2026-09-10",
       "source": "live"
     },
     "brent": {
-      "value": 105.19,
+      "value": 106.01,
       "unit": "USD/bbl",
       "date": "2026-09-10",
       "source": "live"
@@ -44,13 +44,13 @@
       "source": "live"
     },
     "wheat": {
-      "value": 739.32,
+      "value": 742.82,
       "unit": "USD/bu",
       "date": "2026-09-10",
       "source": "live"
     },
     "soybean_oil": {
-      "value": 71.95,
+      "value": 72.07,
       "unit": "US¢/lb",
       "date": "2026-09-10",
       "source": "live"
