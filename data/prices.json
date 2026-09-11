@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-11T11:12:01.159Z",
+  "as_of": "2026-09-11T12:16:20.363Z",
   "prices": {
     "gold": {
-      "value": 4339.86,
+      "value": 4329.11,
       "unit": "USD/oz",
       "date": "2026-09-11",
       "source": "live"
@@ -26,7 +26,7 @@
       "source": "live"
     },
     "brent": {
-      "value": 101.25,
+      "value": 102.23,
       "unit": "USD/bbl",
       "date": "2026-09-11",
       "source": "live"
@@ -44,19 +44,19 @@
       "source": "live"
     },
     "wheat": {
-      "value": 738.92,
+      "value": 740.92,
       "unit": "USD/bu",
       "date": "2026-09-11",
       "source": "live"
     },
     "soybean_oil": {
-      "value": 70.75,
+      "value": 70.97,
       "unit": "US¢/lb",
       "date": "2026-09-11",
       "source": "live"
     },
     "palm_oil": {
-      "value": 4855,
+      "value": 4835,
       "unit": "MYR/t",
       "date": "2026-09-11",
       "source": "live"
