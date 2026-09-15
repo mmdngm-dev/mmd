@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-15T19:10:41.988Z",
+  "as_of": "2026-09-15T20:12:53.597Z",
   "prices": {
     "gold": {
-      "value": 4305.15,
+      "value": 4297.84,
       "unit": "USD/oz",
       "date": "2026-09-15",
       "source": "live"
@@ -20,13 +20,13 @@
       "source": "live"
     },
     "copper": {
-      "value": 6.49,
+      "value": 6.48,
       "unit": "USD/lb",
       "date": "2026-09-15",
       "source": "live"
     },
     "brent": {
-      "value": 105.52,
+      "value": 105.97,
       "unit": "USD/bbl",
       "date": "2026-09-15",
       "source": "live"
