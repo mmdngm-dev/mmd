@@ -2635,16 +2635,16 @@
     {
       "date": "2026-09-15",
       "prices": {
-        "gold": 4296.76,
+        "gold": 4281.66,
         "iron_ore": 99.33,
         "fishmeal": 2044.75,
-        "copper": 6.45,
-        "brent": 104.67,
+        "copper": 6.44,
+        "brent": 105.72,
         "refined_petroleum": 4.85,
         "sugar": 18.15,
-        "wheat": 720.75,
-        "soybean_oil": 70.51,
-        "palm_oil": 4895
+        "wheat": 726.38,
+        "soybean_oil": 69.98,
+        "palm_oil": 4884
       }
     }
   ]
