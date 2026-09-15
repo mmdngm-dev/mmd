@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-09-15T11:11:56.649Z",
+  "as_of": "2026-09-15T12:15:28.917Z",
   "prices": {
     "gold": {
-      "value": 4279.19,
+      "value": 4279.35,
       "unit": "USD/oz",
       "date": "2026-09-15",
       "source": "live"
     },
     "iron_ore": {
-      "value": 99.33,
+      "value": 97.55,
       "unit": "USD/t",
       "date": "2026-09-15",
       "source": "live"
@@ -20,7 +20,7 @@
       "source": "live"
     },
     "copper": {
-      "value": 6.42,
+      "value": 6.43,
       "unit": "USD/lb",
       "date": "2026-09-15",
       "source": "live"
@@ -38,25 +38,25 @@
       "source": "live"
     },
     "sugar": {
-      "value": 18.15,
+      "value": 18.24,
       "unit": "USD/lb",
       "date": "2026-09-15",
       "source": "live"
     },
     "wheat": {
-      "value": 720,
+      "value": 716.63,
       "unit": "USD/bu",
       "date": "2026-09-15",
       "source": "live"
     },
     "soybean_oil": {
-      "value": 70.73,
+      "value": 70.48,
       "unit": "US¢/lb",
       "date": "2026-09-15",
       "source": "live"
     },
     "palm_oil": {
-      "value": 4888,
+      "value": 4895,
       "unit": "MYR/t",
       "date": "2026-09-15",
       "source": "live"
