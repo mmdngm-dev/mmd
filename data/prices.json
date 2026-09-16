@@ -1,64 +1,64 @@
 {
-  "as_of": "2026-09-15T20:12:53.597Z",
+  "as_of": "2026-09-16T06:16:06.683Z",
   "prices": {
     "gold": {
-      "value": 4297.84,
+      "value": 4324.59,
       "unit": "USD/oz",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "iron_ore": {
       "value": 99.33,
       "unit": "USD/t",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "fishmeal": {
       "value": 2044.75,
       "unit": "USD/t",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "copper": {
-      "value": 6.48,
+      "value": 6.5,
       "unit": "USD/lb",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "brent": {
-      "value": 105.97,
+      "value": 104.77,
       "unit": "USD/bbl",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "refined_petroleum": {
       "value": 4.85,
       "unit": "USD/gal",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "sugar": {
       "value": 18.15,
       "unit": "USD/lb",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "wheat": {
-      "value": 731.16,
+      "value": 737.69,
       "unit": "USD/bu",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "soybean_oil": {
-      "value": 70.4,
+      "value": 70.94,
       "unit": "US¢/lb",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     },
     "palm_oil": {
       "value": 4884,
       "unit": "MYR/t",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "source": "live"
     }
   }
