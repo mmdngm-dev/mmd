@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-16T19:11:36.982Z",
+  "as_of": "2026-09-16T20:12:58.430Z",
   "prices": {
     "gold": {
-      "value": 4257.58,
+      "value": 4270.04,
       "unit": "USD/oz",
       "date": "2026-09-16",
       "source": "live"
@@ -26,7 +26,7 @@
       "source": "live"
     },
     "brent": {
-      "value": 102.34,
+      "value": 102.18,
       "unit": "USD/bbl",
       "date": "2026-09-16",
       "source": "live"
